@@ -1,3 +1,3 @@
-let numberEntered = 123;
+let numberEntered = 19;
 numberEntered++;
-console.log(numberEntered++);
+console.log(numberEntered);
