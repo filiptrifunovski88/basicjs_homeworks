@@ -1,5 +1,6 @@
-let base = 2;
-let height = 7;
-let side = height + height;
-let perimetar = base + side;
-console.log(perimetar);
+let base = 7;
+let height = 10;
+
+let area = 0.5 * base * height;
+
+console.log(area);
