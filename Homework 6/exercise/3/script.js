@@ -1,5 +1,5 @@
 function studentsInfo(event) {
-  event.preventDefault(); // ova go najdov na internet ama ne go svajgkam bas kako rabotit ako ne e problem vo feedback-ot da mi go objasnite
+  event.preventDefault(); // ova go najdov na internet ama ne go svajkam bas kako rabotit ako ne e problem vo feedback-ot da mi go objasnite
 
   const firstName = document.getElementById("firstName").value;
   const lastName = document.getElementById("lastName").value;
