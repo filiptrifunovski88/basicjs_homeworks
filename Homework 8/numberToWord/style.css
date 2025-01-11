@@ -1,0 +1,40 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.maindiv {
+  background-color: black;
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 20px;
+  width: 800px;
+  height: 600px;
+  position: relative;
+  left: 570px;
+  top: 150px;
+}
+
+.maindiv .enternumber {
+  position: relative;
+  background-color: rgb(51, 51, 51);
+  color: white;
+  width: 370px;
+  height: 450px;
+  left: -190px;
+  top: 30px;
+  border: 1px solid rgb(0, 0, 0);
+  font-size: 45px;
+  text-align: center;
+}
+.maindiv .firstdiv {
+  position: relative;
+  background-color: rgb(51, 51, 51);
+  color: white;
+  width: 370px;
+  height: 453px;
+  left: 410px;
+  top: -424px;
+  border: 1px solid rgb(0, 0, 0);
+  overflow: auto;
+}
