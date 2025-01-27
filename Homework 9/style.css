@@ -1,0 +1,31 @@
+h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  margin-right: 30px;
+}
+
+div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+section {
+  width: 370px;
+  height: 370px;
+  border: 1px solid black;
+  overflow: auto;
+  margin: 10px;
+  background-color: rgb(240, 240, 240);
+  padding: 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+section p {
+  margin-bottom: 20px;
+}
