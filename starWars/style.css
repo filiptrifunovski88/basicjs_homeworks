@@ -1,0 +1,64 @@
+body {
+  background-color: black;
+}
+#circle1 {
+  width: 200px;
+  height: 200px;
+}
+#circle2 {
+  width: 200px;
+  height: 200px;
+}
+
+#flexBox {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+#printFirstP {
+  width: 200px;
+  height: 300px;
+  color: rgb(255, 255, 255);
+  font-size: larger;
+  display: none;
+  overflow: auto;
+  background-color: gray;
+}
+#printSecondP {
+  width: 200px;
+  height: 300px;
+  color: rgb(255, 255, 255);
+  font-size: larger;
+  display: none;
+  overflow: auto;
+  background-color: gray;
+}
+#printThirdP {
+  width: 200px;
+  height: 300px;
+  color: rgb(255, 255, 255);
+  font-size: larger;
+  display: none;
+  overflow: auto;
+  background-color: gray;
+}
+#printFourthP {
+  width: 200px;
+  height: 300px;
+  color: rgb(255, 255, 255);
+  font-size: larger;
+  display: none;
+  overflow: auto;
+  background-color: gray;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+  gap: 20px;
+}
