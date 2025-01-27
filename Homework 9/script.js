@@ -63,10 +63,10 @@ async function getStudents(apiUrl) {
       return maleSkopje18
         .map((student) => {
           console.log(
-            `Fullname: ${student.firstName} ${student.lastName} || Gender: ${student.gender} || City: ${student.city}`
+            `Fullname: ${student.firstName} ${student.lastName} || Gender: ${student.gender} || City: ${student.city} || Age: ${student.age}`
           );
 
-          return `Fullname: ${student.firstName} ${student.lastName} || Gender: ${student.gender} || City: ${student.city}`;
+          return `Fullname: ${student.firstName} ${student.lastName} || Gender: ${student.gender} || City: ${student.city} || Age: ${student.age}`;
         })
         .join("<br>");
     }
