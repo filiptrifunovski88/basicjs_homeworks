@@ -1,0 +1,63 @@
+body {
+  background-color: beige;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div {
+  display: flex;
+  flex-flow: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+#editDiv {
+  background-color: darkgray;
+  flex-flow: wrap;
+  width: 300px;
+  height: 330px;
+  border: 1px solid black;
+  overflow: auto;
+}
+
+#editDiv2 {
+  background-color: darkgray;
+  flex-flow: wrap;
+  width: 300px;
+  height: 330px;
+  border: 1px solid black;
+  overflow: auto;
+}
+#editDiv3 {
+  background-color: darkgray;
+  flex-flow: wrap;
+  width: 300px;
+  height: 330px;
+  border: 1px solid black;
+  overflow: auto;
+}
+#editDiv4 {
+  background-color: darkgray;
+  flex-flow: wrap;
+  width: 300px;
+  height: 330px;
+  border: 1px solid black;
+  overflow: auto;
+}
+#editDiv5 {
+  background-color: darkgray;
+  flex-flow: wrap;
+  width: 300px;
+  height: 330px;
+  border: 1px solid black;
+  overflow: auto;
+}
+hr {
+  border: 2px solid black;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
